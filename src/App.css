@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app-body {
+  display: flex;
+  flex-grow: 1;
+}
+
+.app-content {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.app-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #ccc;
+}
+.main{
+  display: flex;
+}

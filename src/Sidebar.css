@@ -1,0 +1,97 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 16px;
+    box-shadow: 1px 0px 0px 0px rgb(235, 235, 235);
+}
+  
+.sidebar-options {
+    cursor: pointer;
+    width: 100%;
+}
+.horizontal-line{
+    width: 122%;
+    margin-left: -13%;
+    background-color: rgb(218, 218, 218);
+    height: 1px;
+}
+.myprojects {
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20%;
+}
+.myprojects h5{
+    color: #787486;
+}
+.sidebar-options ul li{
+    list-style: none;
+    margin-bottom: 8%;
+    justify-content: space-between;
+}
+.myprojects ul li{
+    margin-bottom: 8%;
+    list-style: none;
+    justify-content: space-between;
+}
+.myprojects ul li::before{
+    content: "•";
+    font-size: 20px;
+    margin-right: 5%;
+}
+.myprojects ul li:nth-child(1)::before{
+    color: #7AC555;
+}
+.myprojects ul li:nth-child(2)::before{
+    color: #FFA500;
+}
+.myprojects ul li:nth-child(3)::before{
+    color: #E4CCFD;
+}
+.myprojects ul li:nth-child(4)::before{
+    color: #76A5EA;
+}
+.bulb{
+    color: yellow;
+    background-color: rgba(206, 206, 0, 0.5);
+    box-shadow: 0px 0px 30px 10px rgb(207, 207, 0);
+}
+.bulb-div{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 4.5em;
+    border-radius: 50%;
+    margin: -15% auto auto;
+    background-color: #dddddd;
+}
+.myprojects ul{
+    padding: 0px;
+}
+.sidebar-options ul{
+    padding: 0px;
+}
+.sidebar-options .icon{
+    width: 15%;
+    margin: 0px;
+    padding-right: 5%;
+}
+.thoughts{
+    background-color: #dddddd;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 15%;
+}
+.thoughts p{
+    color: #787486;
+    width: 90%;
+    margin: auto auto 10%;
+}
+.thoughts button{
+    border: none;
+    background-color: #fff;
+    height: 30px;
+    width: 70%;
+}
